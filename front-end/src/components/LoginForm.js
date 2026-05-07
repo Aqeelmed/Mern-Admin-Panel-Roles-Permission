@@ -6,7 +6,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 import { FaUserPlus } from "react-icons/fa";
-
+// --------------------//
 const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,7 +28,7 @@ const LoginForm = () => {
     }
     return true;
   };
-
+// ----HANDLE SUBMIT FUNCTION
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateInputs()) return;
