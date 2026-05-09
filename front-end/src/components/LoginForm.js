@@ -91,6 +91,7 @@ const LoginForm = () => {
             {loading ? "Loading..." : "Login"}
           </button>
         </form>
+  // end section of login form 
         <Link to="/register" className="flex items-center justify-center mt-4">
           <span className="mr-2">Create an Account</span>
           <FaUserPlus className="text-xl" />
