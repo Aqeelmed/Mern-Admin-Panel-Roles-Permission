@@ -18,6 +18,7 @@ function App() {
                 </Route>
                 {/* Redirect unknown routes */}
                 <Route path="*" element={<Navigate to="/login" />} />
+                      {/*end sections Redirect unknown routes */}
         
       </Routes>
     </BrowserRouter>
